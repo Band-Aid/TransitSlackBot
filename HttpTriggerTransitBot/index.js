@@ -1,4 +1,3 @@
-require('dotenv').config();
 module.exports = async function (context, req) {
     const qs = require('querystring');
     const fs = require('fs');
